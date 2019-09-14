@@ -1,5 +1,10 @@
 import React from "react";
-import { FaInbox, FaChevronDown } from "react-icons/fa";
+import {
+  FaInbox,
+  FaChevronDown,
+  FaRegCalendarAlt,
+  FaRegCalendar
+} from "react-icons/fa";
 
 export function Sidebar() {
   return (
@@ -13,11 +18,16 @@ export function Sidebar() {
         </li>
         <li>
           <span>
-            <FaInbox />
+            <FaRegCalendar />
           </span>
           <span>Today</span>
         </li>
-        <li>Next 7 days</li>
+        <li>
+          <span>
+            <FaRegCalendarAlt />
+          </span>
+          <span>Next 7 days</span>
+        </li>
       </ul>
       <div className="sidebar_middle">
         <span>
