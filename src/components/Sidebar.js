@@ -1,0 +1,32 @@
+import React from "react";
+import { FaInbox, FaChevronDown } from "react-icons/fa";
+
+export function Sidebar() {
+  return (
+    <div className="sidebar">
+      <ul className="sidebar_generic">
+        <li>
+          <span>
+            <FaInbox />
+          </span>
+          <span>Inbox</span>
+        </li>
+        <li>
+          <span>
+            <FaInbox />
+          </span>
+          <span>Today</span>
+        </li>
+        <li>Next 7 days</li>
+      </ul>
+      <div className="sidebar_middle">
+        <span>
+          <FaChevronDown />
+        </span>
+        <span>Projects</span>
+      </div>
+      <ul className="sidebar_projects">Projects will be here</ul>
+      Add Project
+    </div>
+  );
+}
