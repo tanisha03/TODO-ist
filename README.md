@@ -4,7 +4,7 @@ TODO-ist is a platform where teams can organize, plan, and collaborate on tasks 
 
 ## Installation
 
-Use basic [git](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) commands to install and run Social-APE
+Use basic [git](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) commands to install and run TODO-ist
 
 ```bash
 git clone https://github.com/tanisha03/social-APE.git
